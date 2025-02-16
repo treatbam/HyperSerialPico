@@ -1,6 +1,6 @@
 if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# User configuration for HyperSerialPico section starts here
-	set(BOOT_WORKAROUND ON)
+	set(BOOT_WORKAROUND OFF)
 
 	set(OUTPUT_DATA_PIN 2)
 
