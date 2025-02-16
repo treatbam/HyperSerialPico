@@ -1,6 +1,6 @@
 if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# User configuration for HyperSerialPico section starts here
-	set(BOOT_WORKAROUND OFF)
+	set(BOOT_WORKAROUND ON)
 
 	set(OUTPUT_DATA_PIN 2)
 
@@ -8,7 +8,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")
 	set(OUTPUT_SPI_DATA_PIN 19)
 	set(OUTPUT_SPI_CLOCK_PIN 18)
-	set(OUTPUT_SPI_INTERFACE spi0)
+	set(OUTPUT_SPI_INTERFACE spi)
 
 	# Use multi-segment, starting index of second led strip or OFF to disable
 	set(SECOND_SEGMENT_INDEX OFF)
